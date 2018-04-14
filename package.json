@@ -1,0 +1,26 @@
+{
+  "name": "malijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha */*.test.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^5.0.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mocha": "^5.0.5",
+    "pg": "^7.4.1",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "chai-http": "^4.0.0"
+  }
+}
